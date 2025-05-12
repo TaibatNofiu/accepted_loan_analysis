@@ -9,8 +9,8 @@ st.title("Loan Repayment Risk Analysis")
 st.write("This application evaluates a borrower’s post-loan repayment behavior using deep learning to predict the likelihood of default based on financial and behavioral features.")
 
 # Load the trained model
-model = joblib.load('Desktop/GMC/Colab/lending_model.pkl')
-scaler = joblib.load('Desktop/GMC/Colab/scaler.pkl')
+model = joblib.load('accepted.pkl')
+scaler = joblib.load('scaler.pkl')
 
 # The input features
 st.header("Input Features")
